@@ -1,0 +1,22 @@
+include: package:flutter_lints/flutter.yaml
+
+analyzer:
+  errors:
+    deprecated_member_use: ignore
+    prefer_const_constructors: ignore
+    prefer_const_literals_to_create_immutables: ignore
+    avoid_init_to_null: ignore
+    unused_element: ignore
+    annotate_overrides: ignore
+    unused_import: ignore
+    prefer_final_fields: ignore
+    prefer_const_declarations: ignore
+    unnecessary_import: ignore
+    unused_local_variable: ignore
+
+linter:
+  rules:
+    - prefer_const_constructors: false
+    - prefer_const_literals_to_create_immutables: false
+    - prefer_const_constructors_in_immutables: false
+    - avoid_print: false
